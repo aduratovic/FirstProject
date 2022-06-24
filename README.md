@@ -4,7 +4,7 @@ TICKTACKTOW is a strategic game where two players take turns putting their marks
 
 
 
-
+![tictac](https://user-images.githubusercontent.com/25209405/175208391-0eb5ecb2-0ce9-4b2e-8e00-8bb9ecbcb2b2.jpg)
 
 
 
