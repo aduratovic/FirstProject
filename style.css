@@ -1,0 +1,41 @@
+body {
+    font-family: "monofett";
+}
+
+section {
+    text-align: center;
+}
+
+.title {
+    font-size: 100px;
+    color: #1dd4de;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+.container {
+    display: grid;
+    margin: 5px auto;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    color: #326c6c;
+    background-color: black;
+}
+
+.cell {
+    font-size: 40px;
+    border: 1px solid #53c49e;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    line-height: 50px;
+    
+
+}
+
+.status {
+    font-size: 50px;
+    color: #06b2f6;
+    margin: 10px auto;
+}
+
