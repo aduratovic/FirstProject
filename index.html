@@ -3,32 +3,41 @@
 <head>
     
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport"content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
     <title>Tic Tac Toe</title>
     <link rel="stylesheet" href="style.css">
     
 </head>
 <body>
     
-    <section>
-        <h1 class="title">Tic Tac Toe</h1>
+    
+    
+        <section>
+        <h1>Tic Tac Toe</h1>
         <div class="container">
-            <div data-cell-index="0" class="cell"></div>
-            <div data-cell-index="1" class="cell"></div>
-            <div data-cell-index="2" class="cell"></div>
-            <div data-cell-index="3" class="cell"></div>
-            <div data-cell-index="4" class="cell"></div>
-            <div data-cell-index="5" class="cell"></div>
-            <div data-cell-index="6" class="cell"></div>
-            <div data-cell-index="7" class="cell"></div>
-            <div data-cell-index="8" class="cell"></div>
+            <div box="0" class="grid"></div>
+            <div box="1" class="grid"></div>
+            <div box="2" class="grid"></div>
+            <div box="3" class="grid"></div>
+            <div box="4" class="grid"></div>
+            <div box="5" class="grid"></div>
+            <div box="6" class="grid"></div>
+            <div box="7" class="grid"></div>
+            <div box="8" class="grid"></div>
         </div>
-        <h2 class="status"></h2>
-        <button class="restart">Restart Game</button>
+        <h2>It's X's turn!</h2>
+        <button class="reset">Reset </button>
     </section>
 
+    
+    
     <script src="script.js"></script>
 </body>
 </html>
+
+
+  
